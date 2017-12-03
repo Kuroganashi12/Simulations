@@ -1,0 +1,42 @@
+def arke_zuchetto_hq(job):
+    job.str += 35
+    job.dex += 26
+    job.vit += 40
+    job.acc += 50
+    job.eq_haste += 71
+gearname['head'].append('arke_zuchetto_hq')
+
+def arke_corazza_hq(job):
+    job.str += 39
+    job.dex += 26
+    job.vit += 43
+    job.acc += 52
+    job.eq_haste += 30
+gearname['body'].append('arke_corazza_hq')
+
+def ar_manopolas_hq(job):
+    job.str += 20
+    job.dex += 38
+    job.vit += 47
+    job.acc += 49
+    job.eq_haste += 40
+gearname['hands'].append('ar_manopolas_hq')
+
+def arke_cosc_hq(job):
+    job.str += 45
+    job.vit += 35
+    job.acc += 51
+    job.eq_haste += 51
+gearname['legs'].append('arke_cosc_hq')
+
+def ar_gambieras_hq(job):
+    job.str += 26
+    job.dex += 20
+    job.vit += 31
+    job.acc += 48
+    job.eq_haste += 30
+gearname['feet'].append('ar_gambieras_hq')
+
+def psilomene(job):
+    job.mp += 45
+gearname['ammo'].append('psilomene')

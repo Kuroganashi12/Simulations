@@ -1,0 +1,101 @@
+def valorous_greaves_qa(job):
+    job.str += 17
+    job.dex += 20
+    job.acc += 12
+    job.atk += 12
+    job.eq_haste += 30
+    job.stp += 5
+    job.crit_dmg += 4
+    #augments
+    job.qa += 3
+gearname['feet'].append('valorous_greaves_qa')
+
+def valor_hose_fd(job):
+    job.str += 39
+    job.atk += 15
+    job.eq_haste += 51
+    job.da += 3
+    #augments
+    job.acc += 45
+    job.atk += 17
+    job.da += 4
+    job.qa += 2
+gearname['legs'].append('valor_hose_fd')
+
+def bloodrain_strap(job):
+    job.acc += 6
+    job.stp += 6
+gearname['grip'].append('bloodrain_strap')
+
+def ichigohitofuri_a(job):
+    job.dmg += 242 + 30 #augment
+    job.wpn_rank = floor((242 + 30) / 9)
+    job.delay += 450
+    job.delay_cap = 450 * 0.2
+    job.acc += 15
+    job.skill += 242
+    job.stp += 10
+    job.zan_hasso += 10
+    job.tp_hit = 127
+    #augments
+    job.str += 20
+    job.atk += 20
+gearname['weapon'].append('ichigohitofuri_a')
+
+def umaru_ex(job):
+    job.dmg += 262 + 30 #augment
+    job.wpn_rank = floor((262 + 30) / 9)
+    job.delay += 450
+    job.delay_cap = 450 * 0.2
+    job.acc += 20
+    job.atk += 10
+    job.skill += 242
+    job.stp += 5
+    job.zanshin += 5
+    job.tp_hit = 127
+    #augments
+    job.str += 15
+    job.wsd += 3
+    job.acc += 20
+    job.atk += 20
+gearname['weapon'].append('umaru_ex')
+
+def deacon_blade(job):
+    job.dmg += 296
+    job.wpn_rank = floor(296 / 9)
+    job.delay += 494
+    job.delay_cap = 494 * 0.2
+    job.atk += 25
+    job.skill += 242
+    job.stp += 8
+    job.ws_acc += 25
+    job.fotia += 1
+    job.tp_hit = 137
+gearname['weapon'].append('deacon_blade')
+
+def kurikaranotachi(job):
+    job.dmg += 251
+    job.wpn_rank = floor(251 / 9)
+    job.delay += 450
+    job.delay_cap = 450 * 0.2
+    job.skill += 242
+    job.zanshin += 5
+    job.zan_hasso += 5
+    job.tp_hit = 127
+    #augments
+    job.acc += 70
+    job.wsd += 5
+    job.da += 5
+gearname['weapon'].append('kurikaranotachi')
+
+def tsurumaru(job):
+    job.dmg += 243
+    job.wpn_rank = floor(243 / 9)
+    job.delay += 450
+    job.delay_cap = 450 * 0.2
+    job.acc += 25
+    job.atk += 10
+    job.skill += 242
+    job.save_tp += 250
+    job.tp_hit = 127
+gearname['weapon'].append('tsurumaru')
