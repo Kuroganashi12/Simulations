@@ -1,0 +1,18 @@
+def herc_taupe(job):
+    job.hp += 20
+    job.str += 16
+    job.dex += 39
+    job.vit += 30
+    job.agi += 8
+    job.int += 14
+    job.mnd += 26
+    job.chr += 19
+    job.acc += 12
+    job.eq_haste += 51
+    job.ta += 2
+    #Augments
+    job.str += 15
+    job.acc += 25
+    job.atk += 25
+    job.ta += 3
+gearname['hands'].append('herc_taupe')
